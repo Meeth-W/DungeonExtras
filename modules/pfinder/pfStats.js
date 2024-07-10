@@ -105,7 +105,7 @@ register("chat", (player, classs, level) => {
 
 
             // Send Message
-            let msg = `${prefix} &8[${getSbLevelPrefix(impData.sbLevel)}${parseInt(impData.sbLevel)}&8] &6${impData.ign} &f| Kick: ${toKick[0] ? "&cTrue":"&aFalse"} &f| Reason: ${toKick[1]}`
+            let msg = `${prefix} &8[${getSbLevelPrefix(impData.sbLevel)}${parseInt(impData.sbLevel)}&8] &6${impData.ign} &f| Kick: ${toKick[0] ? "&a✔":"&c✖"} &f| Reason: ${toKick[1]}`
             new Message(new TextComponent(msg).setHover(
                 "show_text", 
                 `&c&l-------------------------\n&6Catacombs Level: &c${impData.cata}\n&6Magical Power: &c${impData.mp}\n&6PB: &c${convertToPBTime(impData.pb)}\n&6Total Secrets: &c${impData.secrets}\n&c&l-------------------------`

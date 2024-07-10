@@ -85,7 +85,7 @@ register("command", (username) => {
                 let msg = `${prefix} &8[${getSbLevelPrefix(impData.sbLevel)}${parseInt(impData.sbLevel)}&8] &6${impData.ign} &f| Cata: &6${impData.cata}&f | Magical Power: &6${impData.mp}&f | PB: &6${convertToPBTime(impData.pb)} &f| Secrets: &6${impData.secrets}`
                 new Message(new TextComponent(msg).setHover(
                     "show_text",
-                    `&cKick: ${toKick[0] ? "&cTrue" : "&aFalse"}\n&cReason: ${toKick[1]}`
+                    `&cKick: ${toKick[0] ? "&a✔":"&c✖"}\n&cReason: ${toKick[1]}`
                 )).chat()
 
             }).catch(error => {
