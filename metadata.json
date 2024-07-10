@@ -1,0 +1,16 @@
+{
+    "name": "DungeonExtras",
+    "creator": "Ghostyy",
+    "version": "0.0.1",
+    "description": "Dungeons QOL.",
+    "entry": "index.js",
+    "requires": [
+      "Vigilance",
+      "RenderLibV2",
+      "PromiseV2",
+      "BloomCore",
+      "requestV2",
+      "PogData",
+      "Atomx"
+    ]
+  }
