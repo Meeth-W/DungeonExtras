@@ -1,5 +1,5 @@
 # DungeonExtras
-Dungeons QOL for Hypixel Skyblock
+Dungeons QOL for Hypixel Skyblock. Includes few cheater versions.
 
 ## Installation
 
@@ -19,3 +19,7 @@ Dungeons QOL for Hypixel Skyblock
 > `/nicepb {user}` or `/m7stats {user}` - To check M7 Stats for a player.
 
 > `/spray` - Trigger auto ice spray.
+
+## Support
+
+> Discord: `.ghxstyy`

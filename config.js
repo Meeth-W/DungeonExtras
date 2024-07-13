@@ -358,7 +358,7 @@ class Settings {
 
     @SwitchProperty({
         name: "Auto Swing",
-        description: "&7Left clicks for you.\n&cRequires Blood Camp Display to be on.",
+        description: "&7Left clicks for you. &4(Cheat)\n&cRequires Blood Camp Display to be on.",
         category: "Dungeons",
         subcategory: "Blood Camp"
     })
