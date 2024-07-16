@@ -108,8 +108,8 @@ register("chat", (player, classs, level) => {
             let msg = `${prefix} &8[${getSbLevelPrefix(impData.sbLevel)}${parseInt(impData.sbLevel)}&8] &6${impData.ign} &f| Kick: ${toKick[0] ? "&a✔":"&c✖"} &f| Reason: ${toKick[1]}`
             new Message(new TextComponent(msg).setHover(
                 "show_text", 
-                `&c&l-------------------------\n&6Catacombs Level: &c${impData.cata}\n&6Magical Power: &c${impData.mp}\n&6PB: &c${convertToPBTime(impData.pb)}\n&6Total Secrets: &c${impData.secrets}\n&c&l-------------------------`
-            )).chat()
+                `&c&l-------------------------\n&6Catacombs Level: &c${impData.cata}\n&6Magical Power: &c${impData.mp}\n&6PB: &c${convertToPBTime(impData.pb)}\n&6Total Secrets: &c${impData.secrets}\n&c&l-------------------------\n\n&aClick to kick ${impData.ign}`
+            ).setClick('run_command', `/p kick ${impData.ign}`)).chat()
 
             // Party Message
             if (config.SendStats) {
